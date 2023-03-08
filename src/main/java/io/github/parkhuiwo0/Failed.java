@@ -12,4 +12,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface Failed {
 
+    /**
+     * failed description.
+     */
+    String description() default "";
 }
