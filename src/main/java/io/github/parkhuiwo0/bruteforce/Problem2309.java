@@ -1,4 +1,4 @@
-package bruteforce;
+package io.github.parkhuiwo0.bruteforce;
 
 import java.util.Arrays;
 import java.util.Scanner;
