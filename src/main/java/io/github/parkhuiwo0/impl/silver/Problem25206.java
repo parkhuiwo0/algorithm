@@ -1,4 +1,4 @@
-package io.github.parkhuiwo0.impl;
+package io.github.parkhuiwo0.impl.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;

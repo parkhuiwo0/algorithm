@@ -1,4 +1,4 @@
-package io.github.parkhuiwo0.impl;
+package io.github.parkhuiwo0.impl.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,8 +28,6 @@ public class Problem2941 {
 
         boolean continueFlag = false;
         int continueCount = 0;
-
-        System.out.println("길이는? " + s.length());
 
         for (int i = 0; i < s.length(); i++) {
             if (continueFlag) {
