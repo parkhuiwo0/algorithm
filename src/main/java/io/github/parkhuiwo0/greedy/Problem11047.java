@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/**
+ * 가장 큰 동전으로 나누고, 나마지로 계산할 수도 있음
+ */
 public class Problem11047 {
 
     public static void main(String[] args) throws IOException {
