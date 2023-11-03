@@ -1,4 +1,4 @@
-package io.github.parkhuiwo0.binarysearch;
+package io.github.parkhuiwo0.binarysearch.silver;
 
 import java.util.Arrays;
 import java.util.Scanner;
