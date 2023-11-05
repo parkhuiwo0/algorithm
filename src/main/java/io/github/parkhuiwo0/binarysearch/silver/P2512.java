@@ -47,9 +47,9 @@ public class P2512 {
         int mid = (startMoney + endMoney) / 2;
 
         while (startMoney <= endMoney) {
-             mid = (startMoney + endMoney) / 2;
+            mid = (startMoney + endMoney) / 2;
 
-             int temp = 0;
+            int temp = 0;
             for (int i = 0; i < requestMoneys.length; i++) {
                 if (requestMoneys[i] > mid) {
                     temp += mid;
