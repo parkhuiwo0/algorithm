@@ -1,4 +1,4 @@
-package io.github.parkhuiwo0.impl.gold;
+package io.github.parkhuiwo0.greedy.gold;
 
 import java.io.BufferedReader;
 import java.io.IOException;
