@@ -1,4 +1,4 @@
-package inf_algorithm.twopointer;
+package inf_algorithm.map_set_tree;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
