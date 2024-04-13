@@ -1,4 +1,4 @@
-package inf_algorithm.sorting;
+package inf_algorithm.sorting_and_binsearch;
 
 import java.io.BufferedReader;
 import java.io.IOException;

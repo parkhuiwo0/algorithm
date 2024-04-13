@@ -1,11 +1,11 @@
-package inf_algorithm.sorting;
+package inf_algorithm.sorting_and_binsearch;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BubbleSort {
+public class SelectionSort {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -19,13 +19,13 @@ public class BubbleSort {
         int idx = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length-1-i; j++) {
-                int left = arr[j];
-                int right = arr[j+1];
+            for (int j = i+1; j < arr.length; j++) {
+                int left = arr[j - 1];
+                int right = arr[j];
 
                 if (left > right) {
-                    arr[j] = right;
-                    arr[j+1] = left;
+                    arr[j - 1] = right;
+                    arr[j] = left;
                 }
             }
         }
