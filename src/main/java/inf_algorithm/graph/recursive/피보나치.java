@@ -4,6 +4,9 @@ public class 피보나치 {
     static int[] arr;
 
     static int dfs(int n) {
+        if (arr[n] > 0) {
+            return arr[n];
+        }
         if (n == 1 || n == 2) {
             return arr[n] = 1;
         }
