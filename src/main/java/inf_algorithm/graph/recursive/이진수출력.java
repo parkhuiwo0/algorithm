@@ -1,4 +1,4 @@
-package inf_algorithm.graph;
+package inf_algorithm.graph.recursive;
 
 public class 이진수출력 {
     static void dfs(int n) {

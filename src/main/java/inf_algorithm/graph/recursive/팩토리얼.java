@@ -1,4 +1,4 @@
-package inf_algorithm.graph;
+package inf_algorithm.graph.recursive;
 
 public class 팩토리얼 {
     static int dfs(int n) {

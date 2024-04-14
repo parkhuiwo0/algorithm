@@ -1,4 +1,4 @@
-package inf_algorithm.graph;
+package inf_algorithm.graph.recursive;
 
 import java.io.IOException;
 
