@@ -22,17 +22,18 @@ public class SlidingWindow_TotalCost {
             array[i] = Integer.parseInt(st.nextToken());
         }
 
-        for (int i = 0; i < array.length - windowSize; i++) {
-            int max = 0;
-            for (int j = i; j < i + windowSize; j++) {
-                max += array[j];
-            }
-
-            if (maxCount < max) {
-                maxCount = max;
-                maxIndex = i;
-            }
+        // 10, 20, 30, 40, 50
+        for (int i = 0; i < windowSize; i++) {
+            maxCount += array[i];
         }
-        System.out.println(maxCount);
+
+        int answer = maxCount;
+
+        for (int i = windowSize; i < array.length; i++) {
+            maxCount += (array[i] - array[i - windowSize]);
+            answer = Math.max(answer, maxCount);
+        }
+
+        System.out.println(answer);
     }
 }
