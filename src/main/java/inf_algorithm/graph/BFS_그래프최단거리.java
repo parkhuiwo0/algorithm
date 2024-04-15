@@ -12,7 +12,7 @@ public class BFS_그래프최단거리 {
         Queue<Integer> q = new LinkedList<>();
         q.add(v);
 
-        int count = 1;
+        cnt[1] = 0;
 
         while (!q.isEmpty()) {
             int length = q.size();
@@ -21,12 +21,11 @@ public class BFS_그래프최단거리 {
                 int n = q.poll();
                 for (int nv : arr.get(n)) {
                     if (cnt[nv] == 0) {
-                        cnt[nv] = count;
+                        cnt[nv] = cnt[n] + 1;
                         q.add(nv);
                     }
                 }
             }
-            count++;
         }
     }
 
